@@ -7,7 +7,7 @@ body {
 html {
     height: 100%;
     color: #3f00ad;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: "Comic Sans MS", sans-serif;
     font-size: 15px;
     font-weight: lighter;
     background: #ffd1f6;
@@ -28,7 +28,7 @@ hr {
 }
 
 header {
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: "Comic Sans MS", sans-serif;
 	font-weight: bold;
 	font-size: 68px;
     color: #FFD1F6;

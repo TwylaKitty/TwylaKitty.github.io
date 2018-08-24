@@ -51,7 +51,7 @@ header {
     font-weight: bold;
     text-align: center;
     background: #FFD1F6;
-    background-image: url('imgs/uni1.png');
+    background-image: url('../imgs/uni1a.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 75% 0%; 
@@ -151,7 +151,7 @@ header {
     margin-left: 10px;
     width: 80%;
     background: #c399ff;
-    background-image: url('imgs/giphy15.gif');
+    background-image: url('../imgs/giphy15.gif');
     border-radius: 5%;
     box-shadow: -1px -1px 0 #C399FF,  
     1px -2px 0 #ff99ea,

@@ -1,0 +1,183 @@
+/* Notes! The color scheme for this layout uses these four basic pastel colors. 
+#FFD1F6 #FF99EA #C399FF #AAB3FF */
+body {
+    margin-top: 0px;
+}
+
+html {
+    height: 100%;
+    color: #3f00ad;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+    background: #ffd1f6;
+    background: linear-gradient(145deg, #ffd1f6, #ff99ea, #c399ff, #aab3ff) fixed;
+}
+
+p {
+    text-indent: 25px;
+}
+
+hr {  
+    border: none;
+    height: 2px;
+    width: 50%;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(#ffd1f6), to(#ffd1f6), color-stop(50%, #ff99ea) );
+    -webkit-filter: blur(0px); /* Safari 6.0 - 9.0 */
+    filter: blur(0px);
+}
+
+header {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+	font-weight: bold;
+	font-size: 68px;
+    color: #FFD1F6;
+    text-indent: 5%;
+    text-shadow:
+    -1px -2px 0 #C399FF,  
+    1px -2px 0 #C399FF,
+    -1px 2px 0 #3f00ad,
+    1px 2px 0 #3f00ad;
+}
+
+.header {
+    text-align: left;
+}
+.wrapper {
+    width: 75%;
+    margin: auto;
+    display: flex;  
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center;
+    background: #FFD1F6;
+    background-image: url('imgs/uni1.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 75% 0%; 
+    box-shadow: -1px -2px 0 #C399FF,  
+    1px -3px 0 #3f00ad,
+    -1px 2px 0 #C399FF,
+    1px 3px 0 #3f00ad;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+.wrapper > * {
+    padding: 10px;
+    flex: 1 100%;
+}
+  
+.footer {
+    font-size: 9px;
+    text-align: center;
+    height: 30px;
+}
+  
+.main {
+    text-align: left;
+    line-height: 30px;
+}
+
+.main a {
+    color: #C399FF;
+    text-decoration: none;
+}
+
+.main a:hover {
+    color: #FFD1F6;
+    text-shadow:
+    -1px -1px 0 #C399FF,  
+    1px -1px 0 #C399FF,
+    -1px 1px 0 #3f00ad,
+    1px 1px 0 #3f00ad;
+}
+
+.aside-1 {
+    padding: 0px;
+}
+
+.aside-1 a {
+    color: #ffd1f6;
+    font-size: 22px;
+    font-variant: small-caps;
+    text-align: left;
+    text-decoration: none;
+    text-shadow:
+    -1px -1px 0 #C399FF,  
+    1px -1px 0 #C399FF,
+    -1px 1px 0 #3f00ad,
+    1px 1px 0 #3f00ad;
+    display: block;
+    margin: 15px;
+    padding: 0px;
+    width: 150px;
+    height: 30px;
+}
+
+.aside-1 a:hover {
+    font-size: 26px;
+}
+
+.aside-1 a:active {
+    color: #ff99ea;
+}
+
+.aside-2 > * {
+    margin: 15px;
+    padding: 4px;
+    width: 120px;
+    height: auto;
+    background: radial-gradient(#ffd1f6, #ff99ea, #c399ff, #aab3ff) fixed;
+    box-shadow: -1px -1px 0 #C399FF,  
+    1px -2px 0 #ff99ea,
+    -1px 1px 0 #C399FF,
+    1px 2px 0 #ff99ea;
+    border-radius: 10%;
+ }
+
+.aside-2 {
+    width: 300px;
+}
+
+.aside-2 img {
+    flex: 1;
+  }
+
+.links {
+    text-align: left;
+    text-indent: 1em;
+    padding-top: 0px;
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 80%;
+    background: #c399ff;
+    background-image: url('imgs/giphy15.gif');
+    border-radius: 5%;
+    box-shadow: -1px -1px 0 #C399FF,  
+    1px -2px 0 #ff99ea,
+    -1px 1px 0 #C399FF,
+    1px 2px 0 #ff99ea;
+}
+
+.links a {
+    font-size: 16px;
+    text-shadow: none;
+}
+
+.links a:hover {
+    font-size: 18px;
+    text-shadow: none;
+}
+
+@media all and (min-width: 600px) {
+    .aside { flex: 1 auto; }
+}
+  
+@media all and (min-width: 800px) {
+    .main    { flex: 3 800px; }
+    .aside-2 { flex: 3 300px; }
+    .aside-1 { order: 1; }
+    .main    { order: 2; }
+    .aside-2 { order: 3; }
+    .footer  { order: 4; }
+}

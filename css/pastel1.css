@@ -173,3 +173,17 @@ header {
     border-radius: 10%;
     margin: 15px;
 }
+
+dl {
+    text-indent: 40px;
+    display: block;
+    margin-left: 40px;
+}
+
+dt {
+    font-size: 18px;
+}
+
+dd {
+    font-style: italic;
+}

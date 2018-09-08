@@ -1,0 +1,37 @@
+img {
+    float: left;
+    padding: 10px;
+}
+
+ul {
+    width: 50%;
+    margin: auto;
+}
+
+li {
+}
+
+.stars img {
+    float: center;
+    padding: 10px;
+    display: inline-block;
+}
+
+#book {
+    padding-bottom: 30px;
+}
+
+#mermaid {
+    background-image: url('../imgs/mermaid2.png');
+    background-repeat: no-repeat;
+    background-position: 185px 58px;
+    padding-bottom: 30px;
+}
+
+#dsa {
+    background-image: url('../books-imgs/wiglaf.png');
+    background-repeat: no-repeat;
+    background-position: 185px 58px;
+    padding-bottom: 30px;
+}
+
